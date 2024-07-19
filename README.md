@@ -2,7 +2,7 @@
 
 ---
 
-This repo is an example of how to leveraging the Salesforce UI Test Automation Model (UTAM).
+This repo is an example of how to leverage the Salesforce UI Test Automation Model (UTAM).
 
 ## Disclaimers
 
@@ -25,8 +25,9 @@ It has been tested on a machine with:
 UTAM is a framework provided by Salesforce, Inc for automating Salesforce orgs
 using the [Page Object](https://martinfowler.com/bliki/PageObject.html) pattern.
 Salesforce provides the example repo [utam-js-recipes](https://github.com/salesforce/utam-js-recipes)
-for getting familar with using the UTAM framework with JavaScript. That repository
-is the official place for Salesforce UTAM examples and demonstrates how to do a
+for getting familar with using the UTAM framework with JavaScript.
+
+_That_ repository is the official place for Salesforce UTAM examples and demonstrates how to do a
 variaty of tasks with UTAM. In contrast, this repo provides a single minimal
 example of automating a Salesforce Org using the out of the box Salesforce components.
 It is minimialist by design.
@@ -67,15 +68,3 @@ npm install
 - Via a npm script. `npm run test`
 - Via a Makefile. `make test`
 - Via VSCode Launch Targets (_Run All Tests_ and _Debug Selected Test_).
-
-Replace the values below with your credientials.
-
-# NOTE: VSCode caches these values. The VSCode file .vscode/settings.json has
-
-# launch targets "Run All Tests" and "Debug Selected Tests". These explicitly
-
-# load the .env file every time.
-
-# If you change the .env then you need to restart VSCode for the changes to get
-
-# picked up in the terminal (i.e. if you're using the make file or NPM scripts).
