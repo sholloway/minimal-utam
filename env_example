@@ -1,0 +1,17 @@
+# WARNING: Your .env file should not be checked in.
+
+# This is an example file that demonstrates how to structure the .env file.
+
+# Active Environment. Note: This must be all lower case.
+
+ENV_UNDER_TEST=demo
+
+# DEMO Environment Variables
+
+DEMO_URL=https://test.salesforce.com
+DEMO_USERNAME=automated.test@someplace.com
+DEMO_PASSWORD=areally_fake_password
+
+# After the initial login, what's the base url?
+
+DEMO_REDIRECT_URL=https://fake-org.lightning.force.com/

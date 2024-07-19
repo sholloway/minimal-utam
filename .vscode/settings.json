@@ -1,0 +1,9 @@
+{
+  "json.schemaDownload.enable": true,
+  "json.schemas": [
+    {
+      "fileMatch": ["*.utam.json"],
+      "url": "https://json.schemastore.org/utam-page-object.json"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# OS Generated
+.DS_STORE
+
+# Node.js Related
+node_modules
+
+# Environment Related
+.env 
+**.env
